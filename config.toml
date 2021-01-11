@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Apache Flink"
 enableGitInfo = false
 theme = "book"
+pygmentsUseClasses = true
 
 ## DO NOT MERGE THIS LINE
 refLinksErrorLevel = "WARNING"
@@ -73,7 +74,6 @@ refLinksErrorLevel = "WARNING"
 
 [markup]
 [markup.highlight]
-  style = "github"
 [markup.goldmark.renderer]
   unsafe = true
 
