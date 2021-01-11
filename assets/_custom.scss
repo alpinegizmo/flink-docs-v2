@@ -80,3 +80,71 @@ aside nav ul {
 .book-icon {
     width: 0px;
 }
+
+aside.book-menu nav {
+    a:hover {
+        font-weight: bold;
+        opacity: 1.0;
+    }
+
+    a.active {
+        font-weight: bold;
+        color: var(--body-font-color);
+    }
+}
+
+aside.book-menu > li {
+    padding: 10px 5px 5px 5px;
+}
+
+aside.book-toc {
+    h3 {
+        margin-top: 0;
+        padding-top: 0;
+        font-size: 1.2em;
+    }
+}
+
+html {
+    line-height: 1.43;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    padding-top: 1em;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.markdown code {
+    background: white;
+    padding: 0;
+    border-radius: 0;
+}
+
+pre.chroma code {
+    line-height: 1.43;
+}
